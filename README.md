@@ -3,6 +3,7 @@
 Создает файл с кодом, пишушим Hello world
 
 <img width="605" height="268" alt="image" src="https://github.com/user-attachments/assets/4ecc72f9-d9e3-42bf-a15d-f5401ddd210d" />
+
 ## 2 шаг
 Создан Dockerfile — инструкция для сборки образа. В нем мы:
 Используем базовый образ python:3.9-slim.
@@ -10,10 +11,12 @@
 Копируем файлы проекта и устанавливаем зависимости через pip.
 Указываем порт 1234 (EXPOSE) и команду запуска приложения.
 <img width="560" height="327" alt="image" src="https://github.com/user-attachments/assets/fb2cb3de-7931-4c7a-86f2-0e72d5c5d974" />
+
 ## 3 шаг
 Сборка Docker-образа из текущей директории с тегом my-flask-app
 Команда: docker build -t my-flask-app
 <img width="897" height="439" alt="image" src="https://github.com/user-attachments/assets/2e61e104-3a84-4954-b0be-f4be81cf28b0" />
+
 ## 4 шаг
 Запущен контейнер из созданного образа в фоновом режиме с пробросом портов (хост 1234)
 <img width="655" height="84" alt="image" src="https://github.com/user-attachments/assets/08ac509d-19a2-424b-a630-7a13c16b9988" />
