@@ -1,6 +1,5 @@
 # Lab1Docker
 ## 1 шаг
-Создает файл с кодом, пишушим Hello world
 
 <img width="605" height="268" alt="image" src="https://github.com/user-attachments/assets/4ecc72f9-d9e3-42bf-a15d-f5401ddd210d" />
 
